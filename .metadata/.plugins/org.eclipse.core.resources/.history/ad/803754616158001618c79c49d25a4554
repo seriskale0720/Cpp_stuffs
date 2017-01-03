@@ -1,0 +1,53 @@
+//============================================================================
+// Name        : Single.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Node {
+	int data;
+	Node *next;
+
+public:
+	Node() {};
+	void SetData (int aData)
+	{
+		data=aData;
+	};
+	void setNext(Node *aNext)
+	{
+		next = aNext;
+	};
+	int Data()
+	{
+		return data;
+	};
+	Node *Next()
+	{
+		return next;
+	};
+};
+
+class List
+{
+	Node *head;
+public:
+	List()
+{
+		head = NULL;
+};
+	void Print();
+	void Append(int data);
+	void Delete(int data);
+};
+
+
+int main()
+{
+
+}

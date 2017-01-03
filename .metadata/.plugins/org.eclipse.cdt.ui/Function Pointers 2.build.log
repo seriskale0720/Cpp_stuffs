@@ -1,0 +1,7 @@
+01:13:09 **** Incremental Build of configuration Debug for project Function Pointers 2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Function Pointers 2.o" "..\\src\\Function Pointers 2.cpp" 
+g++ -o "Function Pointers 2.exe" "src\\Function Pointers 2.o" 
+
+01:13:10 Build Finished (took 1s.333ms)
+

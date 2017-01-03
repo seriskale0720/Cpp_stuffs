@@ -1,0 +1,7 @@
+22:41:38 **** Incremental Build of configuration Debug for project Pointer Practice2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pointer Practice2.o" "..\\src\\Pointer Practice2.cpp" 
+g++ -o "Pointer Practice2.exe" "src\\Pointer Practice2.o" 
+
+22:41:39 Build Finished (took 1s.76ms)
+

@@ -1,0 +1,28 @@
+//============================================================================
+// Name        : Single.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class List{
+private:
+
+	struct node{
+		int data;
+		node *next;
+	};
+
+	typedef struct node *nodePtr;
+
+public: // This is where the functions go
+};
+
+int main()
+{
+
+}

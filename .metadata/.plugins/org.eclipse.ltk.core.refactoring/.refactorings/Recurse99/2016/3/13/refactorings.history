@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Recurse99/src/loop with if pracitce.cpp&apos; to &apos;Recurse99.cpp&apos;" description="Rename resource &apos;loop with if pracitce.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/loop with if pracitce.cpp" name="Recurse99.cpp" stamp="1458772260330" updateReferences="true"/>
+</session>

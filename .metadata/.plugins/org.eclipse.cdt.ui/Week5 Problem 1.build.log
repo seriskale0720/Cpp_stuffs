@@ -1,0 +1,10 @@
+04:09:54 **** Incremental Build of configuration Debug for project Week5 Problem 1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Week5 Problem 1.o" "..\\src\\Week5 Problem 1.cpp" 
+..\src\Week5 Problem 1.cpp: In function 'int main()':
+..\src\Week5 Problem 1.cpp:23:9: error: 'exit' was not declared in this scope
+   exit(1);
+         ^
+
+04:09:54 Build Finished (took 234ms)
+

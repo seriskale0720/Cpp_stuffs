@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Porints and arrays&apos; to &apos;Pointers and Array&apos;" description="Rename resource &apos;Porints and arrays&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Porints and arrays" name="Pointers and Array" stamp="1471234601066" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;Testest&apos;" deleteContents="true" description="Delete resource &apos;Testest&apos;" element1="/Testest" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1471402276479"/>
+</session>

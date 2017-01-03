@@ -1,0 +1,74 @@
+//============================================================================
+// Name        : Single.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class List{
+private:
+	typedef struct node{
+		int data;
+		node *next;
+	}* nodePtr;
+
+	nodePtr head;
+	nodePtr curr;
+	nodePtr temp;
+public: // This is where the functions go
+	List();
+	void AddNode(int addData);
+	void DeleteNode(int delData);
+	void PrintList();
+};
+List::List(){
+	head = NULL;
+	curr = NULL;
+	temp = NULL;
+}
+void List::AddNode(int addData){
+	nodePtr n = new node;
+	n->next = NULL;
+	n->data = addData;
+	if(head != NULL){
+		curr = head;
+		while(curr->next != NULL){
+			curr = curr->next;
+		}
+		curr->next = n;
+	}
+	else{
+		head = n;
+	}
+}
+
+void List::DeleteNode(int delData){
+	nodePtr delPtr = NULL;
+	temp = head;
+	curr = head;
+	while(curr != NULL && curr->data != delData){
+		temp = curr;
+		curr = curr->next;
+	}
+	if(curr == NULL){
+		cout << delData << " was not in the list" << endl;
+	}
+	else{
+		delPtr = curr;
+		curr = curr->next;
+		temp->next = curr;
+		delete delPtr;
+		cout << "The value " << delData << " was deleted." << endl;
+	}
+
+}
+
+
+int main()
+{
+
+}

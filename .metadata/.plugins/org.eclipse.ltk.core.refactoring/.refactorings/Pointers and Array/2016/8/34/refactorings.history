@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Porints and arrays/src/Porints and arrays.cpp&apos; to &apos;Pointers and Array.cpp&apos;" description="Rename resource &apos;Porints and arrays.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Porints and arrays.cpp" name="Pointers and Array.cpp" stamp="1471234586876" updateReferences="true"/>
+</session>

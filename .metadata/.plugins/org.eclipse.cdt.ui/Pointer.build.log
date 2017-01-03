@@ -1,0 +1,11 @@
+22:41:38 **** Incremental Build of configuration Debug for project Pointer ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pointer.o" "..\\src\\Pointer.cpp" 
+..\src\Pointer.cpp: In function 'int main()':
+..\src\Pointer.cpp:22:15: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  char *str2 = "something";
+               ^
+g++ -o Pointer.exe "src\\Pointer.o" 
+
+22:41:38 Build Finished (took 441ms)
+
